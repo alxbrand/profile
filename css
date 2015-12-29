@@ -1,0 +1,156 @@
+body {
+  font-family: inherit;
+  text-align: center;
+  background-image: url('http://orig11.deviantart.net/8fc7/f/2014/331/b/8/tadashi_is_here_by_nania_tan-d87wu2g.jpg');
+  background-size: auto;
+  background-repeat: repeat;
+  color:#564F69;
+
+}
+.text{
+  background:rgba(255,255,255,0.7);
+  border-radius:20px;
+  padding:0.2em;
+  margin-top:0.5em;
+}
+
+.active {
+  background-color: #C194BB;
+}
+
+.tablet{
+  padding:0.4em;
+}
+h4{
+  text-shadow: 1px 1px #9DECEF;
+}
+h5{
+  padding-left:2em;
+  padding-right:2em;
+}
+h1{
+  text-shadow: 1px 2px #b2b300;
+  padding-top:0.2em;
+  padding-bottom:-0.7em;
+  padding-right:1em;
+  color:#79ff4d;
+}
+ol li{
+  margin-left:30%;
+};
+
+iframe.vid{
+  padding-top:1em;
+  padding-bottom:1em;
+  padding-left:2em;
+  padding-right:2em;
+}
+
+iframe.fisheye{
+  padding-top:0em;
+  padding-bottom:1.1em;
+}
+.tablet:hover{
+  background-color:aliceblue;
+}
+img{
+  padding:10px;
+}
+.pic {
+  width: 200px;
+  height: 300px;
+  overflow: hidden; 
+  z-index:0;
+}
+.grow img {
+  width: 200px;
+  height:300px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.grow img:hover {
+  width: 400px;
+  height:600px;
+}
+.pic2 {
+  width: 200px;
+  height: 270px;
+  overflow: hidden; 
+  z-index:0;
+}
+.grow2 img {
+  width: 200px;
+  height:270px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.grow2 img:hover {
+  width: 400px;
+  height:540px;
+}
+.pic3 {
+  width: 200px;
+  height: 340px;
+  overflow: hidden; 
+  z-index:0;
+}
+.grow3 img {
+  width: 200px;
+  height:340px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.grow3 img:hover {
+  width: 400px;
+  height:680px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  padding-left:0px;
+  background-color:#196D96 ;
+  border-radius:3px;
+  position:fixed;
+  z-index:1;
+
+}
+
+li {
+  float: left;
+
+}
+
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+p{
+  color:black;
+  padding-bottom:0.7em;
+  padding-left:0.7em;
+  text-align:center;
+}
+i.centre{
+  margin:auto;
+}
+li a:hover {
+  background-color: #564F69;
+}
